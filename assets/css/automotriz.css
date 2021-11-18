@@ -21,7 +21,7 @@
 
 
 .headerAuto{
-    background-image: url("/images/fondo.jpg");
+    background-image: url(https://sebasshogun.github.io/portafolio/images/fondo.jpg);
     min-height: 500px;
     opacity: 1;
     background-attachment: fixed;
@@ -61,7 +61,7 @@
 *{padding: 0; margin: 0; box-sizing: border-box;}
 
 .automotriz div{
-    background-image: url("/images/auto.jpg");
+    background-image: url(https://sebasshogun.github.io/portafolio/images/auto.jpg);
     min-height: 500px;
     opacity: 1;
     background-attachment: fixed;
@@ -181,7 +181,7 @@
 }
 
 .tercera-seccion{
-    background-image: url("/images/amarillo.jpg");
+    background-image: url(https://sebasshogun.github.io/portafolio/images/amarillo.jpg);
     z-index: 2;
     max-height: 800px;
     opacity: 0.7;
