@@ -9556,7 +9556,7 @@ body.disabled{
 }
 
 .sec-ser-back{
-  background-image: url("/images/alabio/carrucel/azul.png");
+  background-image: url(https://sebasshogun.github.io/portafolio/images/alabio/carrucel/azul.png);
   min-height: 500px;
   opacity:0.7;
   background-attachment: fixed;
@@ -9566,7 +9566,7 @@ body.disabled{
 }
 
 .sec-icon-back{
-  background-image: url("/images/alabio/carrucel/teatro.png");
+  background-image: url(https://sebasshogun.github.io/portafolio/images/alabio/carrucel/teatro.png);
   /* background-color: var(--azul-gris); */
   min-height: 500px;
   background-attachment: fixed;
@@ -9611,7 +9611,6 @@ body.disabled{
               font-size: 2em;
             }
     .propose{
-      /* background-image: url("/application/uploads/fondo.jpg");  */
       opacity:0.9;
     }
     .propose img{
@@ -10113,11 +10112,11 @@ background-position: center center;
 background-repeat: no-repeat;
 }
 .fade-carousel .slides .slide-1 {
-background-image: url('/images/alabio/carrucel/wallo.jpg'); 
+background-image: url(https://sebasshogun.github.io/portafolio/images/alabio/carrucel/wallo.jpg); 
 opacity: 0.4;
 }
 .fade-carousel .slides .slide-2 {
-background-image: url('/images/alabio/carrucel/wally.jpg'); 
+background-image: url(https://sebasshogun.github.io/portafolio/images/alabio/carrucel/wally.jpg); 
 opacity: 0.4;
 background-attachment: fixed;
 background-position: center;
@@ -10125,7 +10124,7 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 .fade-carousel .slides .slide-3 {
-background-image: url('/images/alabio/carrucel/wallp.jpg'); 
+background-image: url(https://sebasshogun.github.io/portafolio/images/alabio/carrucel/wallp.jpg); 
 opacity: 0.4;
 }
 
