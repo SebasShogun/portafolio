@@ -3541,7 +3541,7 @@ ul.exp-icons .icon{
 		margin: 0 auto;
 		text-shadow: 0 0 50px #bdf0ff;
 	   /* Clip Background Image */
-		background: url("/images/animate-text1.png") repeat-y;
+		background: url('../images/animate-text1.png') repeat-y;
 		-webkit-background-clip: text;
 		background-clip: text;
 	   /* Animate Background Image */
