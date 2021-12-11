@@ -1,12 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 
-/*
-	Read Only by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 :root{
 	--pur-prim :#3d1737;
 	--blu-prim :#b7eadc;
@@ -25,7 +19,6 @@
 ::selection{
 	background: #b7eadc;
 }
-
 .hide{
 	display: none;
 }
@@ -2444,31 +2437,41 @@ input, select, textarea {
 				width: 2.5em;
 			}
 
-ul.images-svg{
-	list-style: none;
-	text-decoration: none !important;
-	padding-left: 0;
-	margin: 0 0 0 0;
-	padding: 0 0 0 0;
-}
-ul.images-svg b{
-	margin: 0 0;
-	padding: 4rem 0;
+
+
+.container-icon{
+	display: grid;
+	grid-template-columns: 1fr 1fr; 
+	grid-template-rows: 1fr 1fr 1fr; 
+	grid-template-areas:
+	"frameworks lenguajes"
+	"bd conocimientos"
+	"extra vacio";
 }
 
-ul.images-svg li {
-	text-decoration: none;
-	display: inline;
-	vertical-align: top;
+.svg-container{
+	display: flex;
 }
-
-ul.images-svg img{
-	width: 13%;
+.svg-container div.iconos{
+	flex-direction: row;
 }
-ul.images-svg img:hover{
-	width: 15%;
-	transition:step-start;
-	transition: all 0.5s;
+.svg-container div.iconos img{
+	width: 4rem;
+}
+.svg-container div.iconos img:hover{
+	width: 4.2rem;
+	transition: all 0.2s;
+}
+.intermitente{
+	animation: infinite tamanAnimation 6s;
+}
+@keyframes tamanAnimation {
+	0%,100%{
+		filter: drop-shadow(0 0 5px rgb(138, 138, 138));
+	}
+	50%{
+		filter: drop-shadow(0 0 1px rgb(255, 255, 255));
+	}
 }
 
 /* Iconos de experiencia */
@@ -2805,6 +2808,18 @@ ul.exp-icons .icon{
 			.features article .inner > :last-child {
 				margin-bottom: 0;
 			}
+
+			.features p{
+				margin: 0%;
+			}
+
+		.features .tecno{
+			display: flex;
+			flex-direction: row;
+		}
+		.features .tecno img{
+			width:10%;
+		}
 
 /* Header */
 
