@@ -2513,6 +2513,44 @@ ul.exp-icons .icon{
 	text-decoration: none !important;
 }
 
+ul.start-icon{
+	padding: 0%;
+	margin: 0%;
+	list-style: none;
+	text-decoration: none !important;
+}
+ul.start-icon a{
+	text-decoration: none !important;
+}
+ul.start-icon a:hover{
+	font-weight: bold;
+	transition: ease-out;
+	transition: all 0.5s;
+}
+ul.start-icon b{
+	background: var(--pur-prim) !important;
+	border-radius: 100%;
+	z-index: 20;
+	color: #ffffff;
+	display: inline-block;
+	height: 2.5em;
+	left: 0;
+	line-height: 2.5em;
+	position: relative;
+	text-align: center;
+	top: 0;
+	width: 2.5em;
+}
+ul.start-icon b:hover{
+	background: var(--blu-prim) !important;
+	color: #3d1737;
+	transition: ease-out;
+	transition: all 0.5s;
+}
+ul.start-icon li{
+	margin: 0.5em 0 0 0;
+}
+
 	ul.exp-icons li{
 		display: inline-block;
 		list-style-type: none;
@@ -3637,6 +3675,7 @@ ul.exp-icons .icon{
 	padding-left: 4rem;
 }
 
+
 @media screen and (max-width: 1024px) {
 
 	.lighth {
@@ -3653,7 +3692,7 @@ ul.exp-icons .icon{
 		font-size: 2em;
 	}
 	.hide{
-		display: none;
+		display: block;
 	}
 	.proyect-bar .bar-pro1{
 		padding-top: 0%;
@@ -3666,4 +3705,10 @@ ul.exp-icons .icon{
 		padding-top: 0%;
 		padding-bottom: 30px;
 	}
+	.svg-container div.iconos img{
+		width: 3rem;
+	}
 }
+
+
+
