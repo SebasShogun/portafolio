@@ -251,7 +251,7 @@
     width: 4%;
 }
 .footer-automotriz img:hover{
-    width: 4.1%;
+    animation: increment 1s step-start;
 }
 .footer-automotriz p{
     font-size: 16px;
@@ -279,6 +279,15 @@
 }
 .modal-sebs::placeholder{
     color: grey;
+}
+
+@keyframes increment {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2);
+    }
 }
 
 @media (max-width: 900px){
@@ -316,8 +325,5 @@
     }
     .footer-automotriz img{
         width: 10%;
-    }
-    .footer-automotriz img:hover{
-        width: 10.1%;
     }
 }
